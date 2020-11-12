@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levels:
   - LevelType: 1
-    LocationPrefab: {fileID: 0}
+    LocationPrefab: {fileID: 7285686926343627731, guid: 44e95760616ea4e4c9d8b3ed74f37098,
+      type: 3}
+    CharacterPosition: {fileID: 0}
+    EnemyPosition: {fileID: 0}

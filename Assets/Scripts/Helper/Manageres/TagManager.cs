@@ -11,7 +11,9 @@ namespace ExampleTemplate
             _tags = new Dictionary<TagType, string>
             {
                 {TagType.Player, "Player"},
-                {TagType.Floor, "Floor"}
+                {TagType.Floor, "Floor"},
+                {TagType.CharacterPosition, "CharacterPosition"},
+                {TagType.EnemyPosition, "EnemyPosition"},
             };
         }
 

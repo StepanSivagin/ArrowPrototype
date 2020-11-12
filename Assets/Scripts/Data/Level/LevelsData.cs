@@ -5,7 +5,7 @@ using UnityEngine;
 namespace ExampleTemplate.Level
 {
     [CreateAssetMenu(fileName = "LevelsData", menuName = "Data/Levels/LevelsData")]
-    public class LevelsData : ScriptableObject
+    public sealed class LevelsData : ScriptableObject
     {
         [SerializeField] private LevelData[] _levels;
         
@@ -18,5 +18,6 @@ namespace ExampleTemplate.Level
         }
 
         public GameObject GetPrefabLevel(LevelType levelType) => GetLevelData(levelType).LocationPrefab;
+       
     }
 }

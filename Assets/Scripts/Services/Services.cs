@@ -1,4 +1,5 @@
 ﻿using System;
+using ExampleTemplate.LevelService;
 
 
 namespace ExampleTemplate
@@ -30,6 +31,7 @@ namespace ExampleTemplate
         public PhysicsService PhysicsService { get; private set; }
         public ISaveData SaveData { get; private set; }
         public JsonService JsonService { get; private set; }
+        public LevelLoadService LevelLoadService { get; private set; }
         
         #endregion
         
@@ -43,6 +45,7 @@ namespace ExampleTemplate
             PhysicsService = new PhysicsService(CameraServices);
             SaveData = new PrefsService();
             JsonService = new JsonService();
+            LevelLoadService = new LevelLoadService();
         }
         
         #endregion
