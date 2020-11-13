@@ -4,6 +4,7 @@
     {
         None      = 0,
         Canvas    = 1,
-        Character = 2
+        Character = 2,
+        Enemies   = 3
     }
 }

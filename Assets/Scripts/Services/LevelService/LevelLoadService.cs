@@ -5,19 +5,19 @@ namespace ExampleTemplate.LevelService
     public class LevelLoadService : Service
     {
         private GameObject _currentLevel;
-        private GameObject _characterPosition;
-        private GameObject _enemyPosition;
+        
 
-        public void LoadLevel(LevelType levelType)
+        public void LoadLevel(LevelType levelType, EnemyType enemyType)
         {
             if (_currentLevel != null)
             {
                 GameObject.Destroy(_currentLevel);
             }
             _currentLevel = GameObject.Instantiate(Data.Instance.LevelsData.GetPrefabLevel(levelType));
-            _characterPosition = GameObject.FindWithTag(TagManager.GetTag(TagType.CharacterPosition));
-            _enemyPosition = GameObject.FindWithTag(TagManager.GetTag(TagType.EnemyPosition));
+            var characterPosition = GameObject.FindWithTag(TagManager.GetTag(TagType.CharacterPosition)).transform;
+            var enemyPosition = GameObject.FindWithTag(TagManager.GetTag(TagType.EnemyPosition)).transform;
             
+            Data.Instance.EnemiesData.Initialization(enemyType, enemyPosition);
             Time.timeScale = 1;
         }
     }

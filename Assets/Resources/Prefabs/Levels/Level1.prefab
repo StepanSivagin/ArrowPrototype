@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4093755594788807641}
   m_Layer: 0
   m_Name: CharacterPosition
-  m_TagString: Untagged
+  m_TagString: CharacterPosition
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 4093755595405126858}
   m_Layer: 0
   m_Name: EnemyPosition
-  m_TagString: Untagged
+  m_TagString: EnemyPosition
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4093755596160198129}
   - component: {fileID: 4093755596160198128}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: Level1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

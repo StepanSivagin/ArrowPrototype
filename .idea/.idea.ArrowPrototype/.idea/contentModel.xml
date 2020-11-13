@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\shagr\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\shagr\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ArrowPrototype.141776981.00" t="ExcludeRecursive" />
-    <e p="D:\MyPrograms\ArrowPrototype" t="IncludeRecursive">
+    <e p="C:\Users\shagrid\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\shagrid\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ArrowPrototype.-1033811379.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\unity\ArrowPrototype" t="IncludeRecursive">
       <e p="ArrowPrototype.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AssetsPath" t="Include">
+            <e p="AssetsPathEnemiesGameObject.cs" t="Include" />
             <e p="AssetsPathGameObject.cs" t="Include" />
             <e p="AssetsPathScreen.cs" t="Include" />
           </e>
@@ -35,6 +36,9 @@
               <e p="CharacterData.cs" t="Include" />
             </e>
             <e p="Data.cs" t="Include" />
+            <e p="Enemies" t="Include">
+              <e p="EnemiesData.cs" t="Include" />
+            </e>
             <e p="Level" t="Include">
               <e p="LevelData.cs" t="Include" />
               <e p="LevelsData.cs" t="Include" />
@@ -47,6 +51,9 @@
             <e p="Type" t="Include">
               <e p="ShakeType.cs" t="Include" />
             </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="LoadLevelButton.cs" t="Include" />
           </e>
           <e p="Helper" t="Include">
             <e p="Ciphers" t="Include">
@@ -82,9 +89,13 @@
               <e p="TagType.cs" t="Include" />
             </e>
           </e>
+          <e p="LoadLevelFromEditor.cs" t="Include" />
           <e p="Model" t="Include">
             <e p="Character" t="Include">
               <e p="CharacterBehaviour.cs" t="Include" />
+            </e>
+            <e p="Enemy" t="Include">
+              <e p="EnemyBehaviour.cs" t="Include" />
             </e>
           </e>
           <e p="Services" t="Include">
@@ -114,6 +125,7 @@
             </e>
           </e>
           <e p="Type" t="Include">
+            <e p="EnemyType.cs" t="Include" />
             <e p="GameObjectType.cs" t="Include" />
             <e p="LevelType.cs" t="Include" />
           </e>
