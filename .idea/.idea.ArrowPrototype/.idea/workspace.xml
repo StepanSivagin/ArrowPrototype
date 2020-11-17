@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f4bc921-a8b9-474b-ad46-8fa2e3a7b653" name="Default Changelist" comment="" />
+    <list default="true" id="1f4bc921-a8b9-474b-ad46-8fa2e3a7b653" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/LevelService/LevelDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/LevelService/LevelDataService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/LevelService/LevelLoadService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Services/LevelService/LevelLoadService.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArrowPrototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArrowPrototype/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArrowPrototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArrowPrototype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Data/Levels/LevelsData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Data/Levels/LevelsData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Level/LevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Level/LevelData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/Level/LevelsData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/Level/LevelsData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helper/Manageres/TagManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Helper/Manageres/TagManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helper/Manageres/TagType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Helper/Manageres/TagType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/Services.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Services.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sergey_M.Trash/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sergey_M.Trash/TestScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +41,39 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D815B7EF-AC42-4EEB-8E05-3965CCCB1F98/f9/a77134f8/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/78F1AD0F-25C8-4E3C-A853-E639F50D95F5/bf/530fb1c4/CustomEditor.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/LevelService/LevelServices.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/Services.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/LevelService/LevelDataService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/Manageres/TagType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Type/EnemyType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Level/LevelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Enemy/EnemyData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Enemy/EnemiesData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Type/GameObjectType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AssetsPath/AssetPathEnemiesGameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Level/LevelsData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Enemies/Enemies.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controllers/LevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Enemies.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AssetsPath/AssetsPathEnemiesGameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Model/Enemy/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sergey_M.Trash/LoadLevelFromEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/LoadLevelFromEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/LoadLevelButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/Manageres/TagManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/LevelService/LevelLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data/Enemies/EnemiesData.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1k71U2WlWd1w75jaNe7YBfUhKRR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,6 +89,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\BottomlessCloset.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Projects\unity\ArrowPrototype\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -52,6 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605036846053</updated>
       <workItem from="1605036894468" duration="197000" />
+      <workItem from="1605205910751" duration="2131000" />
+      <workItem from="1605261144438" duration="8495000" />
     </task>
     <servers />
   </component>
@@ -60,6 +135,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
