@@ -2,7 +2,7 @@
 
 namespace ExampleTemplate
 {
-    public class AssetsPathEnemiesGameObject
+    public sealed class AssetsPathEnemiesGameObject
     {
         #region Fields
 

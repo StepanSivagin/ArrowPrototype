@@ -12,10 +12,10 @@ namespace ExampleTemplate
             _characterData = Data.Instance.Character;
         }
 
-        public void Move(Vector3 moveDirection)
-        {
-            transform.Translate(transform.right * moveDirection.x * _characterData.GetSpeed());
-            transform.Translate(transform.up * moveDirection.y * _characterData.GetSpeed());
-        }
+        // public void Move(Vector3 moveDirection)
+        // {
+        //     transform.Translate(transform.right * moveDirection.x * _characterData.GetSpeed());
+        //     transform.Translate(transform.up * moveDirection.y * _characterData.GetSpeed());
+        // }
     }
 }
