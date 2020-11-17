@@ -11,9 +11,7 @@ namespace ExampleTemplate.LevelService
         {
             if (_currentLevel != null)
             {
-                GameObject.Destroy(_currentLevel);
-                GameObject.Destroy(Data.Instance.Character.CharacterBehaviour.gameObject);
-                GameObject.Destroy(Data.Instance.EnemiesData.EnemyBehaviour.gameObject);
+                DestroyLevel();
             }
             _currentLevel = GameObject.Instantiate(Data.Instance.LevelsData.GetPrefabLevel(levelType));
             var characterPosition = GameObject.FindWithTag(TagManager.GetTag(TagType.CharacterPosition)).transform;
@@ -21,6 +19,13 @@ namespace ExampleTemplate.LevelService
             Data.Instance.Character.Initialization(characterType, characterPosition);
             Data.Instance.EnemiesData.Initialization(enemyType, enemyPosition);
             Time.timeScale = 1;
+        }
+
+        public void DestroyLevel()
+        {
+            GameObject.Destroy(_currentLevel);
+            GameObject.Destroy(Data.Instance.Character.CharacterBehaviour.gameObject);
+            GameObject.Destroy(Data.Instance.EnemiesData.EnemyBehaviour.gameObject);
         }
     }
 }

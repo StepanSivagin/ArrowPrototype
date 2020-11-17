@@ -6,6 +6,7 @@ namespace ExampleTemplate
     [CreateAssetMenu(fileName = "Enemies", menuName = "Data/Enemies/EnemiesData")]
     public class EnemiesData : ScriptableObject
     {
+        
         [HideInInspector] public EnemyBehaviour EnemyBehaviour;
         
         public void Initialization(EnemyType enemyType, Transform point)
